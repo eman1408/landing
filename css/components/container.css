@@ -1,0 +1,44 @@
+.hero-banner {
+    background-image: url("../../images/background.png");
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.container {
+    width: 500px;
+    margin: auto;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.card {
+    width: 200px;
+    border: 1px solid rgb(228, 228, 228);
+    align-items: center;
+    text-align: center;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 5px rgb(228, 228, 228);
+}
+
+.footer {
+    text-align: center;
+    padding: 50px;
+    background-color: midnightblue;
+    color: white;
+}
+
+.footer a {
+    font-size: larger;
+    padding: 10px;
+}
